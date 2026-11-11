@@ -1,0 +1,35 @@
+# Dependencies
+node_modules/
+
+# Remotion & Windows render scratch
+.remotion-tmp/
+
+# Python caches
+**/__pycache__/
+*.py[cod]
+
+# Optional external Kenneys / static assets
+public/bridge/
+
+# Rendered video, audio stems, stills, and contact sheets
+# (Keeps lightweight metadata like out/*/shots.json and out/*/qa/report.md)
+out/**/*.mp4
+out/**/*.webm
+out/**/*.wav
+out/**/*.mp3
+out/**/*.jpg
+out/**/*.jpeg
+out/**/*.png
+out/**/*.npz
+
+# Regenerable TTS audio (keep voice/words.json timings tracked)
+voice/*.mp3
+voice/*.wav
+
+# Private study material per .agents/skills/cartoon-3d-short/SKILL.md ("Never upload, publish or send them")
+.agents/skills/cartoon-3d-short/references/
+
+# OS & editor files
+.DS_Store
+Thumbs.db
+
